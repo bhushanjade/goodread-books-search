@@ -31,12 +31,14 @@ export default class SearchBook extends Component {
 
     searchBooks(e) {
         e.preventDefault();
-        this.setState({
-            isFetching: true
-        });
+
         let {search_keyword} = this.state;
         if (search_keyword.trim().length > 0) {
-            searchBooks({'q': this.state.search_keyword}).then(booksJSON => {
+            this.setState({
+                isFetching: true
+            });
+
+            searchBooks({'q': search_keyword}).then(booksJSON => {
                 if (booksJSON.search["total-results"] == 0) {
 
                     this.setState({
@@ -69,7 +71,7 @@ export default class SearchBook extends Component {
                     <input className="mr-1 col-sm-9 form-control" type="text"
                            placeholder="Search Books By title, author, or ISBN..."
                            name="searchText" onChange={this.handleSearch}
-                           value={this.state.search_keyword}/>
+                           value={this.state.search_keyword} required/>
                     <button className="col-sm-2 btn btn-primary" onClick={this.searchBooks}>Search</button>
                     <br/>
                 </div>

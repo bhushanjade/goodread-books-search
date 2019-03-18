@@ -56,6 +56,28 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
                         BookListCard.spec.js.snap
 ```
 
+# Features In Current Version:
+
+1. Search for books by title, author, or ISBN.
+2. Displays upto 20 search results in bootstrap cards.
+3. Displays only title, author, rating.
+4. See the description and rating, and other details by clicking on individual book result.
+
+# Future/TODO Implementation:
+
+Some of the things that I want to implement in the future version are:
+
+1. Detailed Reviews.
+2. Detailed Ratings with each stars & count
+2. User Related Activities Like :
+    - Add a book to a shelf.
+    - show a widget of a member's favorite books
+    - Get a user's read status
+    - Add/update/delete review
+3. Add own css in place of bootstrap.
+
+
+
 ### Configuration 
 - Create `.env` file & add `REACT_APP_API_KEY=<YOUR API KEY>`
 - Run `npm run test` to run unit test cases. ( It uses CRA so all options will work.)
