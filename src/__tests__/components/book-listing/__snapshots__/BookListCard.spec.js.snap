@@ -1,0 +1,1004 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookListCard should render book card with book info 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BookListCard
+    book={
+      Object {
+        "#text": Array [
+          "
+  ",
+          "
+  ",
+          "
+  ",
+          "
+  ",
+          "
+  ",
+          "
+  ",
+          "
+  ",
+          "
+  ",
+          "
+  ",
+          "
+",
+        ],
+        "average_rating": "3.50",
+        "best_book": Object {
+          "#text": Array [
+            "
+    ",
+            "
+    ",
+            "
+    ",
+            "
+    ",
+            "
+    ",
+            "
+  ",
+          ],
+          "@attributes": Object {
+            "type": "Book",
+          },
+          "author": Object {
+            "#text": Array [
+              "
+      ",
+              "
+      ",
+              "
+    ",
+            ],
+            "id": "7434691",
+            "name": "HigakiTakashi",
+          },
+          "id": "19460882",
+          "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+          "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+          "title": "miedemoiikaraeigobonnwoyomou steave jobs wotekisutoni (Japanese Edition)",
+        },
+        "books_count": "1",
+        "id": "27547610",
+        "original_publication_day": "9",
+        "original_publication_month": "12",
+        "original_publication_year": "2013",
+        "ratings_count": "2",
+        "text_reviews_count": "0",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": "19460882",
+    "nodeType": "host",
+    "props": Object {
+      "children": <Link
+        to={
+          Object {
+            "pathname": "/book/19460882",
+            "state": Object {
+              "bookDetails": Object {
+                "#text": Array [
+                  "
+  ",
+                  "
+  ",
+                  "
+  ",
+                  "
+  ",
+                  "
+  ",
+                  "
+  ",
+                  "
+  ",
+                  "
+  ",
+                  "
+  ",
+                  "
+",
+                ],
+                "average_rating": "3.50",
+                "best_book": Object {
+                  "#text": Array [
+                    "
+    ",
+                    "
+    ",
+                    "
+    ",
+                    "
+    ",
+                    "
+    ",
+                    "
+  ",
+                  ],
+                  "@attributes": Object {
+                    "type": "Book",
+                  },
+                  "author": Object {
+                    "#text": Array [
+                      "
+      ",
+                      "
+      ",
+                      "
+    ",
+                    ],
+                    "id": "7434691",
+                    "name": "HigakiTakashi",
+                  },
+                  "id": "19460882",
+                  "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+                  "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+                  "title": "miedemoiikaraeigobonnwoyomou steave jobs wotekisutoni (Japanese Edition)",
+                },
+                "books_count": "1",
+                "id": "27547610",
+                "original_publication_day": "9",
+                "original_publication_month": "12",
+                "original_publication_year": "2013",
+                "ratings_count": "2",
+                "text_reviews_count": "0",
+              },
+            },
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <img
+            className="card-img-top"
+            src="https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+          />
+          <div
+            className="card-block"
+          >
+            <h4
+              className="card-title"
+            >
+               
+              miedemoiikaraeigobonnwoyomou steave jobs wotekisutoni (Japanese Edition)
+            </h4>
+            <div
+              className="card-text"
+            >
+              HigakiTakashi
+            </div>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <span
+              className="float-right"
+            >
+               (
+              3.50
+              )
+            </span>
+            <span
+              className="float-right"
+            >
+              <BookRating
+                count={5}
+                value="3.50"
+              />
+            </span>
+          </div>
+        </div>
+      </Link>,
+      "className": "col-sm-6 col-md-4 col-lg-3 mt-4",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <div
+          className="card"
+        >
+          <img
+            className="card-img-top"
+            src="https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+          />
+          <div
+            className="card-block"
+          >
+            <h4
+              className="card-title"
+            >
+               
+              miedemoiikaraeigobonnwoyomou steave jobs wotekisutoni (Japanese Edition)
+            </h4>
+            <div
+              className="card-text"
+            >
+              HigakiTakashi
+            </div>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <span
+              className="float-right"
+            >
+               (
+              3.50
+              )
+            </span>
+            <span
+              className="float-right"
+            >
+              <BookRating
+                count={5}
+                value="3.50"
+              />
+            </span>
+          </div>
+        </div>,
+        "to": Object {
+          "pathname": "/book/19460882",
+          "state": Object {
+            "bookDetails": Object {
+              "#text": Array [
+                "
+  ",
+                "
+  ",
+                "
+  ",
+                "
+  ",
+                "
+  ",
+                "
+  ",
+                "
+  ",
+                "
+  ",
+                "
+  ",
+                "
+",
+              ],
+              "average_rating": "3.50",
+              "best_book": Object {
+                "#text": Array [
+                  "
+    ",
+                  "
+    ",
+                  "
+    ",
+                  "
+    ",
+                  "
+    ",
+                  "
+  ",
+                ],
+                "@attributes": Object {
+                  "type": "Book",
+                },
+                "author": Object {
+                  "#text": Array [
+                    "
+      ",
+                    "
+      ",
+                    "
+    ",
+                  ],
+                  "id": "7434691",
+                  "name": "HigakiTakashi",
+                },
+                "id": "19460882",
+                "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+                "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+                "title": "miedemoiikaraeigobonnwoyomou steave jobs wotekisutoni (Japanese Edition)",
+              },
+              "books_count": "1",
+              "id": "27547610",
+              "original_publication_day": "9",
+              "original_publication_month": "12",
+              "original_publication_year": "2013",
+              "ratings_count": "2",
+              "text_reviews_count": "0",
+            },
+          },
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              className="card-img-top"
+              src="https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+            />,
+            <div
+              className="card-block"
+            >
+              <h4
+                className="card-title"
+              >
+                 
+                miedemoiikaraeigobonnwoyomou steave jobs wotekisutoni (Japanese Edition)
+              </h4>
+              <div
+                className="card-text"
+              >
+                HigakiTakashi
+              </div>
+            </div>,
+            <div
+              className="card-footer"
+            >
+              <span
+                className="float-right"
+              >
+                 (
+                3.50
+                )
+              </span>
+              <span
+                className="float-right"
+              >
+                <BookRating
+                  count={5}
+                  value="3.50"
+                />
+              </span>
+            </div>,
+          ],
+          "className": "card",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "card-img-top",
+              "src": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h4
+                  className="card-title"
+                >
+                   
+                  miedemoiikaraeigobonnwoyomou steave jobs wotekisutoni (Japanese Edition)
+                </h4>,
+                <div
+                  className="card-text"
+                >
+                  HigakiTakashi
+                </div>,
+              ],
+              "className": "card-block",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    "miedemoiikaraeigobonnwoyomou steave jobs wotekisutoni (Japanese Edition)",
+                  ],
+                  "className": "card-title",
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  "miedemoiikaraeigobonnwoyomou steave jobs wotekisutoni (Japanese Edition)",
+                ],
+                "type": "h4",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "HigakiTakashi",
+                  "className": "card-text",
+                },
+                "ref": null,
+                "rendered": "HigakiTakashi",
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="float-right"
+                >
+                   (
+                  3.50
+                  )
+                </span>,
+                <span
+                  className="float-right"
+                >
+                  <BookRating
+                    count={5}
+                    value="3.50"
+                  />
+                </span>,
+              ],
+              "className": "card-footer",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    " (",
+                    "3.50",
+                    ")",
+                  ],
+                  "className": "float-right",
+                },
+                "ref": null,
+                "rendered": Array [
+                  " (",
+                  "3.50",
+                  ")",
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <BookRating
+                    count={5}
+                    value="3.50"
+                  />,
+                  "className": "float-right",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "count": 5,
+                    "value": "3.50",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": "19460882",
+      "nodeType": "host",
+      "props": Object {
+        "children": <Link
+          to={
+            Object {
+              "pathname": "/book/19460882",
+              "state": Object {
+                "bookDetails": Object {
+                  "#text": Array [
+                    "
+  ",
+                    "
+  ",
+                    "
+  ",
+                    "
+  ",
+                    "
+  ",
+                    "
+  ",
+                    "
+  ",
+                    "
+  ",
+                    "
+  ",
+                    "
+",
+                  ],
+                  "average_rating": "3.50",
+                  "best_book": Object {
+                    "#text": Array [
+                      "
+    ",
+                      "
+    ",
+                      "
+    ",
+                      "
+    ",
+                      "
+    ",
+                      "
+  ",
+                    ],
+                    "@attributes": Object {
+                      "type": "Book",
+                    },
+                    "author": Object {
+                      "#text": Array [
+                        "
+      ",
+                        "
+      ",
+                        "
+    ",
+                      ],
+                      "id": "7434691",
+                      "name": "HigakiTakashi",
+                    },
+                    "id": "19460882",
+                    "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+                    "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+                    "title": "miedemoiikaraeigobonnwoyomou steave jobs wotekisutoni (Japanese Edition)",
+                  },
+                  "books_count": "1",
+                  "id": "27547610",
+                  "original_publication_day": "9",
+                  "original_publication_month": "12",
+                  "original_publication_year": "2013",
+                  "ratings_count": "2",
+                  "text_reviews_count": "0",
+                },
+              },
+            }
+          }
+        >
+          <div
+            className="card"
+          >
+            <img
+              className="card-img-top"
+              src="https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+            />
+            <div
+              className="card-block"
+            >
+              <h4
+                className="card-title"
+              >
+                 
+                miedemoiikaraeigobonnwoyomou steave jobs wotekisutoni (Japanese Edition)
+              </h4>
+              <div
+                className="card-text"
+              >
+                HigakiTakashi
+              </div>
+            </div>
+            <div
+              className="card-footer"
+            >
+              <span
+                className="float-right"
+              >
+                 (
+                3.50
+                )
+              </span>
+              <span
+                className="float-right"
+              >
+                <BookRating
+                  count={5}
+                  value="3.50"
+                />
+              </span>
+            </div>
+          </div>
+        </Link>,
+        "className": "col-sm-6 col-md-4 col-lg-3 mt-4",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <div
+            className="card"
+          >
+            <img
+              className="card-img-top"
+              src="https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+            />
+            <div
+              className="card-block"
+            >
+              <h4
+                className="card-title"
+              >
+                 
+                miedemoiikaraeigobonnwoyomou steave jobs wotekisutoni (Japanese Edition)
+              </h4>
+              <div
+                className="card-text"
+              >
+                HigakiTakashi
+              </div>
+            </div>
+            <div
+              className="card-footer"
+            >
+              <span
+                className="float-right"
+              >
+                 (
+                3.50
+                )
+              </span>
+              <span
+                className="float-right"
+              >
+                <BookRating
+                  count={5}
+                  value="3.50"
+                />
+              </span>
+            </div>
+          </div>,
+          "to": Object {
+            "pathname": "/book/19460882",
+            "state": Object {
+              "bookDetails": Object {
+                "#text": Array [
+                  "
+  ",
+                  "
+  ",
+                  "
+  ",
+                  "
+  ",
+                  "
+  ",
+                  "
+  ",
+                  "
+  ",
+                  "
+  ",
+                  "
+  ",
+                  "
+",
+                ],
+                "average_rating": "3.50",
+                "best_book": Object {
+                  "#text": Array [
+                    "
+    ",
+                    "
+    ",
+                    "
+    ",
+                    "
+    ",
+                    "
+    ",
+                    "
+  ",
+                  ],
+                  "@attributes": Object {
+                    "type": "Book",
+                  },
+                  "author": Object {
+                    "#text": Array [
+                      "
+      ",
+                      "
+      ",
+                      "
+    ",
+                    ],
+                    "id": "7434691",
+                    "name": "HigakiTakashi",
+                  },
+                  "id": "19460882",
+                  "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+                  "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+                  "title": "miedemoiikaraeigobonnwoyomou steave jobs wotekisutoni (Japanese Edition)",
+                },
+                "books_count": "1",
+                "id": "27547610",
+                "original_publication_day": "9",
+                "original_publication_month": "12",
+                "original_publication_year": "2013",
+                "ratings_count": "2",
+                "text_reviews_count": "0",
+              },
+            },
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                className="card-img-top"
+                src="https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+              />,
+              <div
+                className="card-block"
+              >
+                <h4
+                  className="card-title"
+                >
+                   
+                  miedemoiikaraeigobonnwoyomou steave jobs wotekisutoni (Japanese Edition)
+                </h4>
+                <div
+                  className="card-text"
+                >
+                  HigakiTakashi
+                </div>
+              </div>,
+              <div
+                className="card-footer"
+              >
+                <span
+                  className="float-right"
+                >
+                   (
+                  3.50
+                  )
+                </span>
+                <span
+                  className="float-right"
+                >
+                  <BookRating
+                    count={5}
+                    value="3.50"
+                  />
+                </span>
+              </div>,
+            ],
+            "className": "card",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "card-img-top",
+                "src": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h4
+                    className="card-title"
+                  >
+                     
+                    miedemoiikaraeigobonnwoyomou steave jobs wotekisutoni (Japanese Edition)
+                  </h4>,
+                  <div
+                    className="card-text"
+                  >
+                    HigakiTakashi
+                  </div>,
+                ],
+                "className": "card-block",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "miedemoiikaraeigobonnwoyomou steave jobs wotekisutoni (Japanese Edition)",
+                    ],
+                    "className": "card-title",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "miedemoiikaraeigobonnwoyomou steave jobs wotekisutoni (Japanese Edition)",
+                  ],
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "HigakiTakashi",
+                    "className": "card-text",
+                  },
+                  "ref": null,
+                  "rendered": "HigakiTakashi",
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="float-right"
+                  >
+                     (
+                    3.50
+                    )
+                  </span>,
+                  <span
+                    className="float-right"
+                  >
+                    <BookRating
+                      count={5}
+                      value="3.50"
+                    />
+                  </span>,
+                ],
+                "className": "card-footer",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " (",
+                      "3.50",
+                      ")",
+                    ],
+                    "className": "float-right",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " (",
+                    "3.50",
+                    ")",
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <BookRating
+                      count={5}
+                      value="3.50"
+                    />,
+                    "className": "float-right",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "count": 5,
+                      "value": "3.50",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
