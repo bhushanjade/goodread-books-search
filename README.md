@@ -11,6 +11,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
         - `search/index.xml` => Search Books
         - `book/show/` => Get Book Details. Currently Only Using Description.
 - [CORS ANYWHERE](https://cors-anywhere.herokuapp.com/) GoodRead API doesnot support CORS.                            
+
+### Folder Structure & Details
 ```
 ───src
     │   config.js => Config JS Contails API URL with CORS anywhere.
@@ -53,6 +55,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
                         BookListCard.spec.js.snap
 ```
 
+### Configuration 
+- Create `.env` file & add `REACT_APP_API_KEY=<YOUR API KEY>`
+- Run `npm run test` to run unit test cases. ( It uses CRA so all options will work.)
 ## Available Scripts
 
 In the project directory, you can run:
