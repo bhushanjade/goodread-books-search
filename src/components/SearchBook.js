@@ -34,28 +34,30 @@ export default class SearchBook extends Component {
         this.setState({
             isFetching: true
         });
+        let {search_keyword} = this.state.search_keyword;
+        if (search_keyword.trim().length > 0) {
+            searchBooks({'q': this.state.search_keyword}).then(booksJSON => {
+                if (booksJSON.search["total-results"] == 0) {
 
-        searchBooks({'q': this.state.search_keyword}).then(booksJSON => {
-            if (booksJSON.search["total-results"] == 0) {
-
-                this.setState({
-                    isFetching: false,
-                    error: "No Books Found",
-                    books: []
-                })
-            } else {
-                this.setState({
-                    isFetching: false,
-                    error: "",
-                    total: booksJSON.search["total-results"],
-                    books: booksJSON.search.results.work
-                })
-            }
-        }).catch(error => this.setState({
-            isFetching: false,
-            error: error.toString(),
-            books: []
-        }));
+                    this.setState({
+                        isFetching: false,
+                        error: "No Books Found",
+                        books: []
+                    })
+                } else {
+                    this.setState({
+                        isFetching: false,
+                        error: "",
+                        total: booksJSON.search["total-results"],
+                        books: booksJSON.search.results.work
+                    })
+                }
+            }).catch(error => this.setState({
+                isFetching: false,
+                error: error.toString(),
+                books: []
+            }));
+        }
     }
 
 
