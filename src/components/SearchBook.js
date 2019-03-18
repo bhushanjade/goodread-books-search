@@ -34,7 +34,7 @@ export default class SearchBook extends Component {
         this.setState({
             isFetching: true
         });
-        let {search_keyword} = this.state.search_keyword;
+        let {search_keyword} = this.state;
         if (search_keyword.trim().length > 0) {
             searchBooks({'q': this.state.search_keyword}).then(booksJSON => {
                 if (booksJSON.search["total-results"] == 0) {
