@@ -1,6 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### React App Powered by GoodRead API 
+### [React App Powered by GoodRead API](https://goodread-book-search.herokuapp.com/)
+### URL: https://goodread-book-search.herokuapp.com/
 ### Packages USED :
 - [Reactstrap](https://reactstrap.github.io/)
 - [Bootstrap](https://getbootstrap.com/)
