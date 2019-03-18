@@ -201,6 +201,7 @@ ShallowWrapper {
             >
               <BookRating
                 count={5}
+                size={24}
                 value="3.50"
               />
             </span>
@@ -252,6 +253,7 @@ ShallowWrapper {
             >
               <BookRating
                 count={5}
+                size={24}
                 value="3.50"
               />
             </span>
@@ -371,6 +373,7 @@ ShallowWrapper {
               >
                 <BookRating
                   count={5}
+                  size={24}
                   value="3.50"
                 />
               </span>
@@ -465,6 +468,7 @@ ShallowWrapper {
                 >
                   <BookRating
                     count={5}
+                    size={24}
                     value="3.50"
                   />
                 </span>,
@@ -500,6 +504,7 @@ ShallowWrapper {
                 "props": Object {
                   "children": <BookRating
                     count={5}
+                    size={24}
                     value="3.50"
                   />,
                   "className": "float-right",
@@ -511,6 +516,7 @@ ShallowWrapper {
                   "nodeType": "function",
                   "props": Object {
                     "count": 5,
+                    "size": 24,
                     "value": "3.50",
                   },
                   "ref": null,
@@ -648,6 +654,7 @@ ShallowWrapper {
               >
                 <BookRating
                   count={5}
+                  size={24}
                   value="3.50"
                 />
               </span>
@@ -699,6 +706,7 @@ ShallowWrapper {
               >
                 <BookRating
                   count={5}
+                  size={24}
                   value="3.50"
                 />
               </span>
@@ -818,6 +826,7 @@ ShallowWrapper {
                 >
                   <BookRating
                     count={5}
+                    size={24}
                     value="3.50"
                   />
                 </span>
@@ -912,6 +921,7 @@ ShallowWrapper {
                   >
                     <BookRating
                       count={5}
+                      size={24}
                       value="3.50"
                     />
                   </span>,
@@ -947,6 +957,7 @@ ShallowWrapper {
                   "props": Object {
                     "children": <BookRating
                       count={5}
+                      size={24}
                       value="3.50"
                     />,
                     "className": "float-right",
@@ -958,6 +969,7 @@ ShallowWrapper {
                     "nodeType": "function",
                     "props": Object {
                       "count": 5,
+                      "size": 24,
                       "value": "3.50",
                     },
                     "ref": null,

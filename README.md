@@ -1,5 +1,58 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### React App Powered by GoodRead API 
+### Packages USED :
+- [Reactstrap](https://reactstrap.github.io/)
+- [Bootstrap](https://getbootstrap.com/)
+- [axios](https://github.com/axios/axios) => FOR API requests.
+- [USing XMLToJSON function from](https://gist.github.com/chinchang/8106a82c56ad007e27b1). With Slight modiffication to handle ```<![CDATA DESC_TEXT]>```
+- [API](www.goodreads.com)
+    - End Points Used :
+        - `search/index.xml` => Search Books
+        - `book/show/` => Get Book Details. Currently Only Using Description.
+- [CORS ANYWHERE](https://cors-anywhere.herokuapp.com/) GoodRead API doesnot support CORS.                            
+```
+───src
+    │   config.js => Config JS Contails API URL with CORS anywhere.
+    │   setupTests.js => Test cases Setup
+    │
+    ├───api
+    │       books.api.js => API to get books data
+    │
+    ├───components
+    │   │   BookRating.js => Book Rating component uses React-stars.
+    │   │   SearchBook.js => Search Book. Main page component
+    │   │
+    │   ├───book-info
+    │   │       BookDescription.js => Fetch Book Desciption
+    │   │       BookInfo.js => Book Detailed Info
+    │   │
+    │   ├───book-listing
+    │   │       BookListCard.js => Book Listing Card
+    │   │       bookListing.css => CSS for Book Listing card
+    │   │       BookListing.js => Holds All Book Listings
+    │   │
+    │   └───common 
+    │           Error.js => Error Component
+    │
+    ├───helper
+    │       XMLTOJSON.js => helper function to convert XML TO JSON
+    │
+    ├───__mocks__
+    │       books.data.js => Mocks for unit test
+    │
+    └───__tests__ => unit test cases.
+        └───components
+            │   SearchBook.spec.js
+            │
+            └───book-listing
+                │   BookListCard.spec.js
+                │   BookListing.spec.js
+                │
+                └───__snapshots__
+                        BookListCard.spec.js.snap
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
