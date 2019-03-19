@@ -24,14 +24,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Some of the things that I want to implement in the future version are:
 
-1. Detailed Reviews.
-2. Detailed Ratings with each stars & count
+1. Detailed Ratings with each stars & count
 2. User Related Activities Like :
     - Add a book to a shelf.
     - show a widget of a member's favorite books
     - Get a user's read status
     - Add/update/delete review
 3. Add own css in place of bootstrap.
+4. Pagination on Book Search
 
 
 
