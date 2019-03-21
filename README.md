@@ -7,11 +7,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [Bootstrap](https://getbootstrap.com/)
 - [axios](https://github.com/axios/axios) => FOR API requests.
 - [USing XMLToJSON function from](https://gist.github.com/chinchang/8106a82c56ad007e27b1). With Slight modiffication to handle ```<![CDATA DESC_TEXT]>```
-- [API](www.goodreads.com)
+- [API](www.goodreads.com) [API Implementation via Node](https://github.com/bhushanjade/goodread-books-api)
     - End Points Used :
         - `search/index.xml` => Search Books
         - `book/show/` => Get Book Details. Currently Only Using Description.
-- [CORS ANYWHERE](https://cors-anywhere.herokuapp.com/) GoodRead API doesnot support CORS.                            
+- ~~[CORS ANYWHERE](https://cors-anywhere.herokuapp.com/) GoodRead API doesnot support CORS.~~                            
 
 # Features In Current Version:
 
