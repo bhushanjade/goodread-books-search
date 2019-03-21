@@ -12,6 +12,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
         - `search/index.xml` => Search Books
         - `book/show/` => Get Book Details. Currently Only Using Description.
 - ~~[CORS ANYWHERE](https://cors-anywhere.herokuapp.com/) GoodRead API doesnot support CORS.~~                            
+### Configuration 
+###### Note:`API_URL` MUST BE WITHOUT PROTOCOL. Only DNS Name
+- Create `.env` file & add 
+    ```
+    API_URL=goodread-book-api.herokuapp.com
+    ```
+- Run `npm run test` to run unit test cases. ( It uses CRA so all options will work.)
 
 # Features In Current Version:
 
@@ -34,11 +41,6 @@ Some of the things that I want to implement in the future version are:
 4. Pagination on Book Search
 
 
-
-
-### Configuration 
-- Create `.env` file & add `REACT_APP_API_KEY=<YOUR API KEY>`
-- Run `npm run test` to run unit test cases. ( It uses CRA so all options will work.)
 
 ### Folder Structure & Details
 ```
