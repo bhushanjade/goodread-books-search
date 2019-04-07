@@ -10,6 +10,7 @@ export default class SearchBook extends Component {
         super(props);
 
         this.state = {
+            isFetching :false,
             'books': [],
             'error': "",
             'search_keyword': "",

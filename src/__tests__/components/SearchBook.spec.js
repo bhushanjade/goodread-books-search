@@ -45,6 +45,7 @@ describe('SearchBook', () => {
             const wrapper = shallow(<SearchBook />);
             const searchBooks = jest.fn();
             let prevented = false;
+            wrapper.setState({ search_keyword: 'abcd' })
             wrapper.find('button').simulate('click', {
                 preventDefault: () => {
                     prevented = true;
